@@ -1,13 +1,13 @@
 ﻿using DesafioPOO.Models;
 
 Console.WriteLine("Teste Nokia");
-Smartphone nokia = new Nokia("(11) 92222-2222", "Uia4", "123123123", 64);
+Smartphone nokia = new Nokia("(11) 92862-4562", "Muito bom", "654765532", 54);
 nokia.Ligar();
-nokia.InstalarAplicativo("LinkedIn");
+nokia.InstalarAplicativo("Facebook");
 
 Console.WriteLine("\n");
 
 Console.WriteLine("Teste iPhone");
-Smartphone iphone = new Iphone("(11) 93333-3333", "Modelo Top", "321321321", 185);
+Smartphone iphone = new Iphone("(11) 99999-9999", "Modelo Top", "321321321", 163);
 iphone.ReceberLigacao();
-iphone.InstalarAplicativo("WhatsApp");
+iphone.InstalarAplicativo("Telegram");
